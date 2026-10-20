@@ -1,6 +1,7 @@
 # Example — Neil Postman, *Amusing Ourselves to Death*
 
-Real reading notes, turned into cards using the `notes-to-cards` format.
+Real reading notes (from the Chinese edition 《娱乐至死》), turned into cards
+using the `notes-to-cards` format.
 
 ---
 

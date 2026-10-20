@@ -1,6 +1,6 @@
 ---
 name: notes-to-cards
-description: Turn a raw reading note into one structured "thinking card" that connects a quote to the author's idea, a real-world example, and why it matters. Use when the user pastes a book excerpt or their own reading notes and wants a clean, reusable note.
+description: Turn a raw reading note or book excerpt into a four-cell "thinking card" (Quote → Idea → Example → Why it matters) that pushes the reader to connect the book to their own life. Use when the user pastes a passage or their own notes and wants a clean, reusable note instead of a passive highlight.
 ---
 
 # Notes → Thinking Cards
@@ -40,6 +40,13 @@ For each note, produce exactly these four cells:
 - If a note has no Example or no Why-it-matters, say so rather than inventing
   one. A note that only has Quote + Idea is a *quote*, not a *thinking card*.
 
+**Keep it short.** Each cell should be 1–2 sentences. If a cell needs a paragraph,
+you are cramming two ideas into one card — split it.
+
+**The Idea cell is the hard one.** It is not a paraphrase of the quote. It is the
+author's point, compressed into one sentence of your own words. Test: delete the
+quote and the Idea should still stand on its own as a complete thought.
+
 ## How to use it
 
 1. The user pastes an excerpt or a page of their notes.
@@ -52,6 +59,14 @@ For each note, produce exactly these four cells:
 
 See `examples/amusing-ourselves-to-death.md` — real reading notes on Neil
 Postman's *Amusing Ourselves to Death*, turned into cards.
+
+## Common mistakes to avoid
+
+- **A vague Example.** "Modern media" is not an example — name the video, platform, or habit.
+- **Idea is a paraphrase.** Restating the quote in different words is not understanding; compress the author's point instead.
+- **Why it matters is a book report.** "This shows media is powerful" summarises the book; it does not say what changes for the reader.
+- **Inventing a connection.** If the reader has no real Example or Why-it-matters, ask — never fabricate one.
+- **Two ideas in one card.** A card that needs a paragraph to explain should be split.
 
 ## Checklist
 
